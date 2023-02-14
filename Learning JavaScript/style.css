@@ -1,0 +1,47 @@
+
+
+*{
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.main{
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.heading{
+    background: #444;
+    color: #efefef;
+    font-size: 3.2rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+
+button{
+    font-size: 1.8rem;
+    border: 2px solid red;
+    border: none;
+    outline: none;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: background-color;
+
+}
+
+button:hover{
+    background-color: #dbd2d2;
+}
